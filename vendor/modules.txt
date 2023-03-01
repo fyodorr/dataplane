@@ -24,9 +24,6 @@ github.com/99designs/gqlgen/plugin/federation/fieldset
 github.com/99designs/gqlgen/plugin/modelgen
 github.com/99designs/gqlgen/plugin/resolvergen
 github.com/99designs/gqlgen/plugin/servergen
-# github.com/Masterminds/semver v1.5.0
-## explicit
-github.com/Masterminds/semver
 # github.com/Microsoft/go-winio v0.5.2
 ## explicit; go 1.13
 github.com/Microsoft/go-winio
@@ -588,7 +585,7 @@ gorm.io/driver/mysql
 # gorm.io/driver/postgres v1.3.10
 ## explicit; go 1.14
 gorm.io/driver/postgres
-# gorm.io/gorm v1.23.10
+# gorm.io/gorm v1.24.5
 ## explicit; go 1.16
 gorm.io/gorm
 gorm.io/gorm/callbacks
