@@ -24,9 +24,6 @@ github.com/99designs/gqlgen/plugin/federation/fieldset
 github.com/99designs/gqlgen/plugin/modelgen
 github.com/99designs/gqlgen/plugin/resolvergen
 github.com/99designs/gqlgen/plugin/servergen
-# github.com/Masterminds/semver v1.5.0
-## explicit
-github.com/Masterminds/semver
 # github.com/Microsoft/go-winio v0.5.2
 ## explicit; go 1.13
 github.com/Microsoft/go-winio
@@ -92,8 +89,8 @@ github.com/emirpasic/gods/lists/arraylist
 github.com/emirpasic/gods/trees
 github.com/emirpasic/gods/trees/binaryheap
 github.com/emirpasic/gods/utils
-# github.com/fasthttp/websocket v1.5.0
-## explicit; go 1.15
+# github.com/fasthttp/websocket v1.5.1
+## explicit; go 1.16
 github.com/fasthttp/websocket
 # github.com/fatih/color v1.13.0
 ## explicit; go 1.13
@@ -200,18 +197,10 @@ github.com/goccy/go-json/internal/runtime
 # github.com/gofiber/adaptor/v2 v2.1.24
 ## explicit; go 1.14
 github.com/gofiber/adaptor/v2
-# github.com/gofiber/fiber/v2 v2.38.1
-## explicit; go 1.19
+# github.com/gofiber/fiber/v2 v2.42.0
+## explicit; go 1.20
 github.com/gofiber/fiber/v2
-github.com/gofiber/fiber/v2/internal/bytebufferpool
-github.com/gofiber/fiber/v2/internal/colorable
-github.com/gofiber/fiber/v2/internal/dictpool
-github.com/gofiber/fiber/v2/internal/fasttemplate
-github.com/gofiber/fiber/v2/internal/fwd
-github.com/gofiber/fiber/v2/internal/isatty
-github.com/gofiber/fiber/v2/internal/msgp
 github.com/gofiber/fiber/v2/internal/schema
-github.com/gofiber/fiber/v2/internal/uuid
 github.com/gofiber/fiber/v2/middleware/cors
 github.com/gofiber/fiber/v2/middleware/logger
 github.com/gofiber/fiber/v2/middleware/recover
@@ -219,8 +208,8 @@ github.com/gofiber/fiber/v2/utils
 # github.com/gofiber/utils v0.1.2
 ## explicit; go 1.14
 github.com/gofiber/utils
-# github.com/gofiber/websocket/v2 v2.0.22
-## explicit; go 1.14
+# github.com/gofiber/websocket/v2 v2.1.4
+## explicit; go 1.16
 github.com/gofiber/websocket/v2
 # github.com/golang-jwt/jwt/v4 v4.4.2
 ## explicit; go 1.16
@@ -292,7 +281,7 @@ github.com/json-iterator/go
 # github.com/kevinburke/ssh_config v1.2.0
 ## explicit
 github.com/kevinburke/ssh_config
-# github.com/klauspost/compress v1.15.5
+# github.com/klauspost/compress v1.15.9
 ## explicit; go 1.16
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/gzip
@@ -346,9 +335,12 @@ github.com/matoous/go-nanoid/v2
 # github.com/mattn/go-colorable v0.1.13
 ## explicit; go 1.15
 github.com/mattn/go-colorable
-# github.com/mattn/go-isatty v0.0.16
+# github.com/mattn/go-isatty v0.0.17
 ## explicit; go 1.15
 github.com/mattn/go-isatty
+# github.com/mattn/go-runewidth v0.0.14
+## explicit; go 1.9
+github.com/mattn/go-runewidth
 # github.com/mitchellh/go-homedir v1.1.0
 ## explicit
 github.com/mitchellh/go-homedir
@@ -378,6 +370,9 @@ github.com/nats-io/nuid
 # github.com/orcaman/concurrent-map v1.0.0
 ## explicit
 github.com/orcaman/concurrent-map
+# github.com/philhofer/fwd v1.1.1
+## explicit
+github.com/philhofer/fwd
 # github.com/pieterclaerhout/go-formatter v1.0.5
 ## explicit; go 1.13
 github.com/pieterclaerhout/go-formatter
@@ -391,6 +386,9 @@ github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
+# github.com/rivo/uniseg v0.2.0
+## explicit; go 1.12
+github.com/rivo/uniseg
 # github.com/robfig/cron/v3 v3.0.1
 ## explicit; go 1.12
 github.com/robfig/cron/v3
@@ -409,7 +407,10 @@ github.com/russross/blackfriday/v2
 # github.com/sanity-io/litter v1.5.5
 ## explicit; go 1.16
 github.com/sanity-io/litter
-# github.com/savsgio/gotils v0.0.0-20220401102855-e56b59f40436
+# github.com/savsgio/dictpool v0.0.0-20221023140959-7bf2e61cea94
+## explicit; go 1.13
+github.com/savsgio/dictpool
+# github.com/savsgio/gotils v0.0.0-20220530130905-52f3993e8d6d
 ## explicit; go 1.13
 github.com/savsgio/gotils/strconv
 # github.com/sergi/go-diff v1.2.0
@@ -438,6 +439,9 @@ github.com/tidwall/pretty
 # github.com/tidwall/sjson v1.2.5
 ## explicit; go 1.14
 github.com/tidwall/sjson
+# github.com/tinylib/msgp v1.1.6
+## explicit; go 1.14
+github.com/tinylib/msgp/msgp
 # github.com/tklauser/go-sysconf v0.3.10
 ## explicit; go 1.13
 github.com/tklauser/go-sysconf
@@ -450,8 +454,8 @@ github.com/urfave/cli/v2
 # github.com/valyala/bytebufferpool v1.0.0
 ## explicit
 github.com/valyala/bytebufferpool
-# github.com/valyala/fasthttp v1.40.0
-## explicit; go 1.15
+# github.com/valyala/fasthttp v1.44.0
+## explicit; go 1.16
 github.com/valyala/fasthttp
 github.com/valyala/fasthttp/fasthttpadaptor
 github.com/valyala/fasthttp/fasthttputil
@@ -500,7 +504,7 @@ golang.org/x/crypto/ssh/knownhosts
 golang.org/x/mod/internal/lazyregexp
 golang.org/x/mod/module
 golang.org/x/mod/semver
-# golang.org/x/net v0.0.0-20220722155237-a158d28d115b
+# golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
 ## explicit; go 1.17
 golang.org/x/net/context
 golang.org/x/net/internal/socks
